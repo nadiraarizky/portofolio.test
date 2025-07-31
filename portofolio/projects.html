@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects Nadira Arizky</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f5ff;
+      margin: 0;
+      padding: 40px 20px;
+      color: #5b3c88;
+    }
+    #projects {
+      max-width: 960px;
+      margin: auto;
+    }
+    #projects .container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .project-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(128, 87, 195, 0.15);
+      overflow: hidden;
+      width: 280px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 28px rgba(128, 87, 195, 0.3);
+    }
+    .project-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .project-card h3 {
+      margin: 16px 0 8px;
+      font-size: 22px;
+      color: #7c52d7;
+    }
+    .project-card p {
+      font-size: 14px;
+      padding: 0 15px 15px;
+      color: #7a6dbf;
+      min-height: 48px;
+    }
+    .project-card a {
+      display: inline-block;
+      margin-bottom: 20px;
+      text-decoration: none;
+      color: white;
+      background: linear-gradient(90deg, #8b5cf6, #a78bfa);
+      padding: 10px 24px;
+      border-radius: 30px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+    .project-card a:hover {
+      background: linear-gradient(90deg, #7c42db, #8a64f0);
+    }
+    @media (max-width: 640px) {
+      #projects .container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .project-card {
+        width: 90%;
+        max-width: 400px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section id="projects">
+    <div class="container">
+      <!-- Proyek pertama -->
+      <div class="project-card">
+        <img src="assets/projektokobaju.png" alt="Projek 1" />
+        <h3>Projek Pertama</h3>
+        <p>Deskripsi singkat proyek pertama</p>
+        <a href="https://nadira708.github.io/portofolio-nadira/" target="_blank" rel="noopener noreferrer">
+          Lihat Proyek
+        </a>
+      </div>
+      
+      <!-- Proyek kedua -->
+      <div class="project-card">
+        <img src="assets/desainhlmn.png" alt="Projek 2" />
+        <h3>Projek Kedua</h3>
+        <p>Deskripsi singkat proyek kedua</p>
+        <a href="https://www.figma.com/design/ZQX1lrgVoFgabBXZ0p4f7y/Dalam-Produk?node-id=0-1&p=f&t=2gduRESSVyZGgowI-0" target="_blank" rel="noopener noreferrer">
+          Lihat Proyek
+        </a>
+         </div>
+      
+      <!-- Proyek ketiga -->
+      <div class="project-card">
+        <img src="assets/bengkel.png" alt="Projek 3" />
+        <h3>Projek Ketiga</h3>
+        <p>Deskripsi singkat proyek ketiga</p>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          Lihat Proyek
+        </a>
+      </div>
+        <!-- Proyek keempat -->
+      <div class="project-card">
+        <img src="assets/kasir.png" alt="Projek 4" />
+        <h3>Projek Keempat</h3>
+        <p>Deskripsi singkat proyek keempat</p>
+        <a href="https://www.figma.com/design/XjsQmUvl11qlvNGZjO2y3A/Mockup-Website-MyCashy-Uji-Level?node-id=0-1&t=IoPDg5lW3DE5ZhQK-1" target="_blank" rel="noopener noreferrer">
+          Lihat Proyek
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
